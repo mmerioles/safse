@@ -1,0 +1,14 @@
+[project]
+name = "safse"
+version = "1.0.0"
+description = "Species-Aware Fish Length Estimation from Images"
+readme = "README.md"
+requires-python = ">=3.13"
+authors = [{ name = "ECE228 Team 72" }]
+dependencies = [
+  "numpy",
+  "opencv-python",
+  "pandas",
+  "pytest"
+]
+

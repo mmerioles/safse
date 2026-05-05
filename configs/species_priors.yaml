@@ -1,0 +1,12 @@
+largemouth_bass:
+  mean_length_cm: 38.0
+  min_length_cm: 20.0
+  max_length_cm: 75.0
+bluegill:
+  mean_length_cm: 18.0
+  min_length_cm: 8.0
+  max_length_cm: 35.0
+rainbow_trout:
+  mean_length_cm: 35.0
+  min_length_cm: 15.0
+  max_length_cm: 80.0
