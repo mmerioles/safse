@@ -11,6 +11,11 @@ dependencies = [
   "numpy",
   "opencv-python",
   "pandas",
+  "pillow>=12.2.0",
   "pytest",
+  "scikit-learn>=1.8.0",
+  "tensorflow>=2.21.0",
+  "torch>=2.12.0",
+  "torchvision>=0.27.0",
 ]
 
