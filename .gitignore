@@ -4,4 +4,3 @@ uv.lock
 .uv-cache
 .pytest_cache
 *.pkl
-data/
