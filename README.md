@@ -17,6 +17,15 @@ While in the project directory, run the following to sync your environment with 
 uv sync
 ```
 
+Now to download the dataset, please use git lfs to manage and track these files
+```bash
+sudo apt update && sudo apt install git-lfs
+git lfs install
+```
+Then pull the data
+```bash
+git lfs pull
+```
 ## Testing
 
 To perform a smoke test, please run
