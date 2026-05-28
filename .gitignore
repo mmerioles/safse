@@ -4,6 +4,5 @@ uv.lock
 .uv-cache
 .pytest_cache
 *.pkl
-notebooks/models/*
 safse.egg-info/*
 safse.egg*
