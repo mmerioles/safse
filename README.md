@@ -15,6 +15,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 While in the project directory, run the following to sync your environment with needed dependencies
 ```bash
 uv sync
+uv pip install -e .
 ```
 
 Now to download the dataset, please use git lfs to manage and track these files
