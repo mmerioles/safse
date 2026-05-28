@@ -13,9 +13,7 @@ def train_model(data_path):
         y_test,
         le,
     ) = prepare_data(data_path)
-
     model = build_model(len(le.classes_))
-
     history = model.fit(
         X_train,
         y_train,
@@ -23,5 +21,4 @@ def train_model(data_path):
         epochs=10,
         batch_size=32,
     )
-
     return model, history, le
