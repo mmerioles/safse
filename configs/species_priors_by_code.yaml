@@ -1,0 +1,98 @@
+# Species length priors keyed by OSF/classifier codes (species_le.classes_).
+# Units: centimeters.
+#
+# fishbase: values from FishBase "common length" and "max length" (screenshots, May 2026).
+#   mean = common length when adult-sized; else length at maturity (Lm).
+#   min  = lower maturity bound or ~50% of mean (whichever is larger).
+#   max  = max length (TL unless noted on FishBase page).
+#
+# dataset_empirical: FishBase page not found — min/mean/max from train folds 0–8 (fork mm / 10).
+
+BHC:  # bighead carp — FishBase Hypophthalmichthys nobilis
+  mean_length_cm: 60.0
+  min_length_cm: 55.0
+  max_length_cm: 146.0
+BUF:  # smallmouth buffalo — FishBase Ictiobus bubalus
+  mean_length_cm: 58.5
+  min_length_cm: 40.0
+  max_length_cm: 112.0
+CC:  # common carp — FishBase Cyprinus carpio (Lm 34.8; common 31)
+  mean_length_cm: 35.0
+  min_length_cm: 25.0
+  max_length_cm: 120.0
+CCF:  # channel catfish — FishBase Ictalurus punctatus
+  mean_length_cm: 57.0
+  min_length_cm: 43.0
+  max_length_cm: 132.0
+CWS:  # common white sucker — FishBase Catostomus commersonii
+  mean_length_cm: 40.7
+  min_length_cm: 23.0
+  max_length_cm: 65.0
+FWD:  # freshwater drum — FishBase Aplodinotus grunniens
+  mean_length_cm: 45.0
+  min_length_cm: 25.0
+  max_length_cm: 95.0
+GC:  # grass carp — FishBase Ctenopharyngodon idella (Lm 68.2)
+  mean_length_cm: 68.0
+  min_length_cm: 58.0
+  max_length_cm: 150.0
+GF:  # goldfish — FishBase Carassius auratus
+  mean_length_cm: 20.0
+  min_length_cm: 10.0
+  max_length_cm: 48.0
+GS:  # gizzard shad — dataset empirical (FishBase hit was Indo-Pacific species)
+  mean_length_cm: 36.0
+  min_length_cm: 28.0
+  max_length_cm: 45.0
+LNG:  # longnose gar — FishBase Lepisosteus osseus (Lm 66.9)
+  mean_length_cm: 67.0
+  min_length_cm: 50.0
+  max_length_cm: 200.0
+LNS:  # longnose sucker — FishBase Catostomus catostomus
+  mean_length_cm: 35.0
+  min_length_cm: 22.0
+  max_length_cm: 64.0
+NHS:  # northern hogsucker — FishBase Hypentelium nigricans
+  mean_length_cm: 30.0
+  min_length_cm: 15.0
+  max_length_cm: 61.0
+NP:  # northern pike — FishBase Esox lucius
+  mean_length_cm: 48.0
+  min_length_cm: 30.0
+  max_length_cm: 150.0
+QBS:  # quillback carpsucker — FishBase Carpiodes cyprinus
+  mean_length_cm: 52.0
+  min_length_cm: 25.0
+  max_length_cm: 66.0
+RHS:  # redhorse sucker — dataset empirical (FishBase not found)
+  mean_length_cm: 42.0
+  min_length_cm: 20.0
+  max_length_cm: 64.0
+RRS:  # river redhorse sucker — dataset empirical (FishBase not found)
+  mean_length_cm: 42.0
+  min_length_cm: 20.0
+  max_length_cm: 64.0
+SC:  # silver carp — FishBase Hypophthalmichthys molitrix (Lm 51.7)
+  mean_length_cm: 52.0
+  min_length_cm: 35.0
+  max_length_cm: 120.0
+SL:  # sea lamprey (OSF) — FishBase Pacific lamprey Entosphenus tridentatus
+  mean_length_cm: 41.0
+  min_length_cm: 30.0
+  max_length_cm: 76.0
+SMB:  # smallmouth bass — FishBase Micropterus dolomieu (Lm 27)
+  mean_length_cm: 35.0
+  min_length_cm: 22.0
+  max_length_cm: 69.0
+WB:  # white bass — FishBase Morone chrysops
+  mean_length_cm: 32.0
+  min_length_cm: 20.0
+  max_length_cm: 45.0
+WP:  # white perch — dataset empirical (FishBase not found; avoid Golden perch mis-hit)
+  mean_length_cm: 25.0
+  min_length_cm: 20.0
+  max_length_cm: 35.0
+WYE:  # walleye — FishBase Sander vitreus
+  mean_length_cm: 54.0
+  min_length_cm: 36.0
+  max_length_cm: 107.0
