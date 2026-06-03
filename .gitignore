@@ -3,6 +3,5 @@ __pycache__/
 uv.lock
 .uv-cache
 .pytest_cache
-*.pkl
 safse.egg-info/*
 safse.egg*
